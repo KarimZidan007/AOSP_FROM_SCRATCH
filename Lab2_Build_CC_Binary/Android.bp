@@ -1,0 +1,10 @@
+cc_binary {
+    name: "led",
+    srcs: ["src/main.cpp"],
+    shared_libs: ["liblog"],
+    stl: "libc++",
+    cflags: ["-std=c++17"],
+    installable: true,  
+
+}
+
